@@ -4,7 +4,8 @@
   "main": "index.js",
   "license": "MIT",
   "scripts": {
-    "start": "ts-node example.ts"
+    "start": "ts-node example.ts",
+    "dev": "nodemon ./index.ts"
   },
   "dependencies": {
     "@adiwajshing/keyed-db": "^0.2.4",
